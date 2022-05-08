@@ -1,0 +1,24 @@
+<template>
+  <main text-center>
+    <NuxtPage />
+  </main>
+  <footer block mr-auto ml-auto>
+    <div flex flex-col mt-6 pt-6 pb-2>
+      <div flex flex-wrap justify-center mb-4>
+        <NuxtLink mr-9 to="/">
+          Home
+        </NuxtLink>
+        <NuxtLink mr-9 to="/Store">
+          Store
+        </NuxtLink>
+        <NuxtLink to="/API">
+          API
+        </NuxtLink>
+      </div>
+      <div>
+        <span />
+      </div>
+    </div>
+  </footer>
+</template>
+
