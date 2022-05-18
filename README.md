@@ -1,12 +1,6 @@
 # Nuxt 3 Starter
 
-- [Nuxt 3](https://v3.nuxtjs.org))
-    - File based routing
-    - Layouts
-    - Auto import
-    - Server engine
-    - Rendering modes
-    - and more...
+- 💚 [Nuxt 3](https://v3.nuxtjs.org) - File-based routing, layouts, auto imports, server engine, rendering modes, etc.
 
 - ⚡️ Vite
 
@@ -14,11 +8,11 @@
 
 - 🍍 [Pinia](https://pinia.vuejs.org)
 
+- 🎨 UnoCSS
+
+- 😃 Iconify
+
 - ESLint
-
-- UnoCSS
-
-- Iconify
 
 ## Setup
 
