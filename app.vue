@@ -1,10 +1,10 @@
 <template>
-  <main text-center>
+  <main text-center mt-10>
     <NuxtPage />
   </main>
   <footer block mr-auto ml-auto>
-    <div flex flex-col mt-6 pt-6 pb-2>
-      <div flex flex-wrap justify-center mb-4>
+    <div flex flex-col mt-6 pt-2 pb-2>
+      <div flex flex-wrap justify-center>
         <NuxtLink mr-9 to="/">
           Home
         </NuxtLink>
