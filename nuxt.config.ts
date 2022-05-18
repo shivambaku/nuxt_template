@@ -6,6 +6,9 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@pinia/nuxt',
   ],
+  css: [
+    '@unocss/reset/tailwind.css',
+  ],
   unocss: {
     // presets
     uno: true, // enabled `@unocss/preset-uno`
