@@ -11,8 +11,11 @@
         <NuxtLink mr-9 to="/Store">
           Store
         </NuxtLink>
-        <NuxtLink to="/Rest">
-          Rest
+        <NuxtLink mr-9 to="/Rest">
+          REST
+        </NuxtLink>
+        <NuxtLink to="/Nitro">
+          Nitro
         </NuxtLink>
       </div>
       <div>
