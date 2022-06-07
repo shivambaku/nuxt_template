@@ -11,8 +11,8 @@
         <NuxtLink mr-9 to="/Store">
           Store
         </NuxtLink>
-        <NuxtLink to="/API">
-          API
+        <NuxtLink to="/Rest">
+          Rest
         </NuxtLink>
       </div>
       <div>
