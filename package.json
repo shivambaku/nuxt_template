@@ -9,7 +9,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.23.1",
-    "@css-render/vue3-ssr": "^0.15.10",
     "@iconify-json/tabler": "^1.1.13",
     "@pinia/nuxt": "^0.1.9",
     "@unocss/nuxt": "^0.33.5",

@@ -26,18 +26,12 @@ export default defineNuxtConfig({
     ],
     rules: [],
   },
-  build: {
-    transpile: [
-      'naive-ui',
-      'vueuc',
-      '@css-render/vue3-ssr',
-      '@juggle/resize-observer',
-    ],
-  },
   vite: {
-    optimizeDeps: {
-      include: ['date-fns-tz/esm/formatInTimeZone'],
-    },
+    plugins: [
+      Components({
+        resolvers: [NaiveUiResolver()],
+      }),
+    ],
   },
   ssr: false,
 });

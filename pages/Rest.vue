@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import {
-  NDataTable,
-} from 'naive-ui';
-
 import type { Character } from '~~/interfaces';
 
 const { data: characters, pending, error, refresh } = await useFetch<Character[]>(
