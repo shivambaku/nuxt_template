@@ -35,13 +35,13 @@ const pagination = {
     <p v-if="pending">
       Loading
     </p>
-    <template v-else>
+    <div v-else>
       <NDataTable
         pl10 pr10
         :columns="columns"
         :data="characters"
         :pagination="pagination"
       />
-    </template>
+    </div>
   </div>
 </template>

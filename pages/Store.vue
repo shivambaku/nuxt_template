@@ -5,7 +5,6 @@ const counterStore = useCounterStore();
 <template>
   <div>
     <button
-      btn-primary
       @click="counterStore.incrementCounter"
     >
       count is: {{ counterStore.counter }}
